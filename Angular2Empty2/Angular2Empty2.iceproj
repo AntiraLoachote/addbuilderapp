@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectGuid>6251d3de-5309-41d0-b22a-0de55359757b</ProjectGuid>
+    <ProjectTypeGuids>{F0A65104-D4F4-4012-B799-F612D75820F6}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".abignore" />
+    <Content Include=".abproject" />
+    <Content Include=".app.json" />
+    <Content Include=".yo-rc.json" />
+    <Content Include="package.json" />
+    <Content Include="tsconfig.json" />
+    <Content Include="app\app.component.html" />
+    <Content Include="app\app.component.js" />
+    <Content Include="app\app.component.js.map" />
+    <TypeScriptCompile Include="abreferences.d.ts" />
+    <TypeScriptCompile Include="app\app.component.ts" />
+    <Content Include="app\app.css" />
+    <Content Include="app\app.module.js" />
+    <Content Include="app\app.module.js.map" />
+    <TypeScriptCompile Include="app\app.module.ts" />
+    <Content Include="app\app.routes.js" />
+    <Content Include="app\app.routes.js.map" />
+    <TypeScriptCompile Include="app\app.routes.ts" />
+    <Content Include="app\main.js" />
+    <Content Include="app\main.js.map" />
+    <TypeScriptCompile Include="app\main.ts" />
+    <Content Include="app\package.json" />
+    <Content Include="app\App_Resources\Android\AndroidManifest.xml" />
+    <Content Include="app\App_Resources\Android\app.gradle" />
+    <Content Include="app\App_Resources\Android\drawable-hdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-hdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-hdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-ldpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-mdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-xhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-xxhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-land-xxxhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-ldpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-ldpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-mdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-mdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-xhdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-xhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-xxhdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-xxhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\Android\drawable-xxxhdpi\icon.png" />
+    <Content Include="app\App_Resources\Android\drawable-xxxhdpi\splashscreen.png" />
+    <Content Include="app\App_Resources\iOS\Default-568h@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default-667h.png" />
+    <Content Include="app\App_Resources\iOS\Default-736h.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape-1366@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape-667h.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape-736h.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape.png" />
+    <Content Include="app\App_Resources\iOS\Default-Landscape@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default-Portrait-1366@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default-Portrait.png" />
+    <Content Include="app\App_Resources\iOS\Default-Portrait@2x.png" />
+    <Content Include="app\App_Resources\iOS\Default.png" />
+    <Content Include="app\App_Resources\iOS\Default@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-40.png" />
+    <Content Include="app\App_Resources\iOS\icon-40@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-40@3x.png" />
+    <Content Include="app\App_Resources\iOS\icon-60.png" />
+    <Content Include="app\App_Resources\iOS\icon-60@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-60@3x.png" />
+    <Content Include="app\App_Resources\iOS\icon-72.png" />
+    <Content Include="app\App_Resources\iOS\icon-72@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-76.png" />
+    <Content Include="app\App_Resources\iOS\icon-76@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon-83.5@2x.png" />
+    <Content Include="app\App_Resources\iOS\Icon-Small-50.png" />
+    <Content Include="app\App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Content Include="app\App_Resources\iOS\Icon-Small.png" />
+    <Content Include="app\App_Resources\iOS\Icon-Small@2x.png" />
+    <Content Include="app\App_Resources\iOS\icon.png" />
+    <Content Include="app\App_Resources\iOS\icon@2x.png" />
+    <Content Include="app\fonts\fontawesome-webfont.ttf" />
+    <Content Include="app\modules\homeView\homeView.component.html" />
+    <Content Include="app\modules\homeView\homeView.component.js" />
+    <Content Include="app\modules\homeView\homeView.component.js.map" />
+    <TypeScriptCompile Include="app\modules\homeView\homeView.component.ts" />
+    <Content Include="app\modules\homeView\homeView.module.js" />
+    <Content Include="app\modules\homeView\homeView.module.js.map" />
+    <TypeScriptCompile Include="app\modules\homeView\homeView.module.ts" />
+    <Content Include="app\modules\homeView\shared\homeView.service.js" />
+    <Content Include="app\modules\homeView\shared\homeView.service.js.map" />
+    <TypeScriptCompile Include="app\modules\homeView\shared\homeView.service.ts" />
+    <Content Include="app\modules\homeView\shared\index.js" />
+    <Content Include="app\modules\homeView\shared\index.js.map" />
+    <TypeScriptCompile Include="app\modules\homeView\shared\index.ts" />
+    <Content Include="app\navigation\drawer\drawer.component.html" />
+    <Content Include="app\navigation\drawer\drawer.component.js" />
+    <Content Include="app\navigation\drawer\drawer.component.js.map" />
+    <TypeScriptCompile Include="app\navigation\drawer\drawer.component.ts" />
+    <Content Include="app\navigation\drawer\drawer.module.js" />
+    <Content Include="app\navigation\drawer\drawer.module.js.map" />
+    <TypeScriptCompile Include="app\navigation\drawer\drawer.module.ts" />
+    <Content Include="app\navigation\drawer\drawer.routes.js" />
+    <Content Include="app\navigation\drawer\drawer.routes.js.map" />
+    <TypeScriptCompile Include="app\navigation\drawer\drawer.routes.ts" />
+    <Content Include="app\navigation\shared\index.js" />
+    <Content Include="app\navigation\shared\index.js.map" />
+    <TypeScriptCompile Include="app\navigation\shared\index.ts" />
+    <Content Include="app\navigation\shared\modules.constant.js" />
+    <Content Include="app\navigation\shared\modules.constant.js.map" />
+    <TypeScriptCompile Include="app\navigation\shared\modules.constant.ts" />
+    <Content Include="app\navigation\shared\routes.constant.js" />
+    <Content Include="app\navigation\shared\routes.constant.js.map" />
+    <TypeScriptCompile Include="app\navigation\shared\routes.constant.ts" />
+    <Content Include="app\resources\nativescript.png" />
+    <Content Include="app\shared\index.js" />
+    <Content Include="app\shared\index.js.map" />
+    <TypeScriptCompile Include="app\shared\index.ts" />
+    <Content Include="app\shared\shared.module.js" />
+    <Content Include="app\shared\shared.module.js.map" />
+    <TypeScriptCompile Include="app\shared\shared.module.ts" />
+    <Content Include="app\shared\components\action-bar.component.html" />
+    <Content Include="app\shared\components\action-bar.component.js" />
+    <Content Include="app\shared\components\action-bar.component.js.map" />
+    <TypeScriptCompile Include="app\shared\components\action-bar.component.ts" />
+    <Content Include="app\shared\components\index.js" />
+    <Content Include="app\shared\components\index.js.map" />
+    <TypeScriptCompile Include="app\shared\components\index.ts" />
+    <Content Include="app\shared\directives\hyperlink.directive.js" />
+    <Content Include="app\shared\directives\hyperlink.directive.js.map" />
+    <TypeScriptCompile Include="app\shared\directives\hyperlink.directive.ts" />
+    <Content Include="app\shared\directives\index.js" />
+    <Content Include="app\shared\directives\index.js.map" />
+    <TypeScriptCompile Include="app\shared\directives\index.ts" />
+    <Content Include="app\shared\directives\platform.directive.js" />
+    <Content Include="app\shared\directives\platform.directive.js.map" />
+    <TypeScriptCompile Include="app\shared\directives\platform.directive.ts" />
+    <Content Include="app\shared\enums\index.js" />
+    <Content Include="app\shared\enums\index.js.map" />
+    <TypeScriptCompile Include="app\shared\enums\index.ts" />
+    <Content Include="app\shared\enums\navigation-modes.enum.js" />
+    <Content Include="app\shared\enums\navigation-modes.enum.js.map" />
+    <TypeScriptCompile Include="app\shared\enums\navigation-modes.enum.ts" />
+    <Content Include="app\shared\models\index.js" />
+    <Content Include="app\shared\models\index.js.map" />
+    <TypeScriptCompile Include="app\shared\models\index.ts" />
+    <Content Include="app\shared\models\navigation-item.model.js" />
+    <Content Include="app\shared\models\navigation-item.model.js.map" />
+    <TypeScriptCompile Include="app\shared\models\navigation-item.model.ts" />
+    <Content Include="app\shared\services\index.js" />
+    <Content Include="app\shared\services\index.js.map" />
+    <TypeScriptCompile Include="app\shared\services\index.ts" />
+    <Content Include="app\shared\services\navigation.service.js" />
+    <Content Include="app\shared\services\navigation.service.js.map" />
+    <TypeScriptCompile Include="app\shared\services\navigation.service.ts" />
+    <Content Include="app\shared\services\notification.service.js" />
+    <Content Include="app\shared\services\notification.service.js.map" />
+    <TypeScriptCompile Include="app\shared\services\notification.service.ts" />
+    <Content Include="typings\tns-core-modules-schemas\tns.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\App_Resources\" />
+    <Folder Include="app\App_Resources\Android\" />
+    <Folder Include="app\App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-hdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-ldpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-mdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-xhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-xxhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-land-xxxhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-xhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-xxhdpi\" />
+    <Folder Include="app\App_Resources\Android\drawable-xxxhdpi\" />
+    <Folder Include="app\App_Resources\iOS\" />
+    <Folder Include="app\fonts\" />
+    <Folder Include="app\modules\" />
+    <Folder Include="app\modules\homeView\" />
+    <Folder Include="app\modules\homeView\shared\" />
+    <Folder Include="app\navigation\" />
+    <Folder Include="app\navigation\drawer\" />
+    <Folder Include="app\navigation\shared\" />
+    <Folder Include="app\resources\" />
+    <Folder Include="app\shared\" />
+    <Folder Include="app\shared\components\" />
+    <Folder Include="app\shared\directives\" />
+    <Folder Include="app\shared\enums\" />
+    <Folder Include="app\shared\models\" />
+    <Folder Include="app\shared\services\" />
+    <Folder Include="typings\" />
+    <Folder Include="typings\tns-core-modules-schemas\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(IceniumTargets)Build.targets" />
+  <!--
+    TODO: Uncomment this code if you need to customize the build process.
+    <Target Name="BeforeBuild">
+        <Message Text="TODO: Implement BeforeBuild" Importance="high" />
+    </Target>
+
+    <Target Name="AfterBuild">
+        <Message Text="TODO: Implement AfterBuild" Importance="high" />
+    </Target>
+    -->
+</Project>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A81B4A23-AF18-4B01-8944-84D6FB3D4B47}") = "NativeScriptHelloWorld1", "NativeScriptHelloWorld1\NativeScriptHelloWorld1.iceproj", "{DAAD60B9-95BD-4C3D-A708-A83EACDC88CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAAD60B9-95BD-4C3D-A708-A83EACDC88CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAD60B9-95BD-4C3D-A708-A83EACDC88CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAD60B9-95BD-4C3D-A708-A83EACDC88CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DAAD60B9-95BD-4C3D-A708-A83EACDC88CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAD60B9-95BD-4C3D-A708-A83EACDC88CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
